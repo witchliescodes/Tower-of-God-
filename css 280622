@@ -1,0 +1,276 @@
+/**Skin by Witchlies**/
+:root {
+--back1: #21273d; 
+--back2: #454555;
+--back3: #3e2228;
+--acent1: #3c4f9d;
+--acent2: #6456aa; 
+--acent3: #6ba5a3;
+--tback1: #0e0e0e5e;
+--tback2: #4545558c;  
+--text1: #edeeff    
+}
+
+body#phpbb { background-size:cover;
+ background-position:center; }
+body { background-image: url('https://images2.imgbox.com/31/9d/w84bb7Vh_o.png'); background-size: cover; background-position: top center; background-repeat: no-repeat; background-attachment: fixed;}
+a {color: var(--text1); transition: 150ms ease-in-out;}
+a:hover, #navgod a:hover{ color: var(--acent3);
+ text-decoration:none!important;
+  letter-spacing: 1px;
+}
+*::selection{
+ background: #f5f5f5;
+ color:white;
+}
+
+#wrap { padding: 0!important;
+    width: 1060px;
+    min-width: 1060px;
+    max-width: 1060px;
+    position: relative;
+    background: var(--tback1);
+    margin-top: 15px;
+      backdrop-filter: blur(2px);
+    left: -130px;
+    border-top-left-radius: 30px;
+}
+
+/**SIDEWIDGET**/
+#torre { width: 250px;
+    height: 100%;
+    padding: 0px 0 0 10px;
+    position: fixed;
+    right: 15px;
+  background: transparent; 
+      backdrop-filter: blur(2px);
+  border-left: 1px solid var(--back2); 
+box-sizing: border-box;
+    border-top-right-radius: 30px;
+  oberflow: hidden;
+}
+
+
+.widgtool {
+    background: var(--tback1);
+    height: 100%;
+    position: relative;
+  overflow: auto;
+}
+
+#tool-us, #tool-notis {
+position: relative; 
+}
+
+
+#tool-us {
+    width: 300px;
+    height: 150px;
+    display: flex;
+    background: #123;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+}
+
+#fa_menulist {
+    display: block;
+    position: absolute;
+    list-style-type: none;
+    margin: 0;
+    padding: 0; 
+  background: none;
+    left: 0!important;
+    border: none;
+    z-index: 999;
+}
+
+/**Toolbar**/
+#fa_toolbar #fa_icon, #fa_toolbar #fa_service, #fa_toolbar #fa_search, #fa_toolbar #fa_share {display: none!important;}
+#fa_toolbar_hidden {display: none;}
+.fa_fix { position: fixed!important;  right: 0; top: 0;}
+#fa_toolbar { position: absolute; background: none!important;}
+#fa_right { float: none; display: flex;  justify-content: center;  align-items: center;  flex-direction: column; }
+#fa_menu {  display: none;}
+a#fa_hide, #fa_show { display: none!important;}
+
+/**Cabecera y logo**/
+#wrap .cabecera {
+width: 1060px;
+  height: 700px;
+  background-image: url('https://images2.imgbox.com/b7/ca/NS6rFpdT_o.png');
+  background-position: top center;
+  background-repeat: no-repeat;
+  border-top-left-radius: 30px;
+      display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logto {
+    width: 1060px;
+    height: auto;
+    justify-items: revert;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+
+.logto h1  {
+    font-family: 'Towerofgod';
+    width: 445px;
+    font-size: 85px;
+    text-align: center;
+    margin-left: 197px;
+    letter-spacing: 3px;
+    color: var(--lt-color-gray-900);
+    text-shadow: 1px 1px var(--text1), -1px 1px var(--text1), 1px -1px var(--text1), -1px -1px var(--text1), 1px 0px var(--text1), -1px 0px var(--text1), 0px -1px var(--text1), 0px 1px var(--text1);
+}
+
+.logto h2 {
+font-family: 'Towerofgod';
+    width: 60px;
+    font-size: 85px;
+    margin-top: 13px;
+    text-align: center;
+    margin-left: 7px;
+    letter-spacing: 3px;
+    color: var(--lt-color-gray-900);
+    text-shadow: 1px 1px var(--text1), -1px 1px var(--text1), 1px -1px var(--text1), -1px -1px var(--text1), 1px 0px var(--text1), -1px 0px var(--text1), 0px -1px var(--text1), 0px 1px var(--text1);
+}
+
+.eyes, eyes1{
+    width: 150px;
+    height: 165px;
+     margin-left: -34px;
+    object-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  
+.eyes img {
+    width: 170px;
+    height: 170px;
+    object-fit: cover;
+    object-position: center;
+  }  
+
+/**Barra de navegación**/
+#towernav {
+    height: 85px;
+    margin-top: 0px;
+    display: flex;
+    flex-flow: column;
+    position: sticky;
+    top: 0px;
+}
+#navgod {
+    align-items: center;
+    background: var(--back1);
+    height: 40px;
+    padding: 7px;
+    display: flex;
+      justify-content: space-between;
+    border-bottom: 1px solid var(--tback1);
+} .sep {display: flex;} 
+#navgod a {
+    color: var(--text1);
+    border: 1px solid var(--tback1);
+    padding: 10px;
+    width: 10px;
+    height: 10px;
+    margin: 5px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-shadow: 0 0 black;
+    font-size: 12px;
+    transition: 150ms ease-in-out;
+}
+
+ #nobart, #navgod a img {display: none;}
+
+.Weltw {
+    width: 653px;
+    height: 54px;
+    position: absolute;
+    margin: 400px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.Weltw h1 {
+font-family: 'BlackMango';
+    font-size: 40px;
+    position: absolute;
+    margin: 26px 0 0 7px;
+    color: transparent;
+    -webkit-text-stroke: 1px var(--tback1);
+}
+
+.debaj {
+    height: 40px;
+    background: var(--tback2);
+    color: var(--text1);
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  font-size: 0px;
+}
+
+.name {
+
+    margin: 0 15px 0 0px;
+    padding: 10px;
+    background: var(--tback1);
+    width: 200px;
+    color: var(--text1);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 11px;
+    z-index: 9;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.debaj span {
+    background: var(--back2);
+    padding: 5px;
+    border-radius: 10px;
+    color: var(--text1);
+    font-size: 8px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-family: Montserrat;
+    margin: 0 6px 0 0px;}
+/**Scroll**/
+::-webkit-scrollbar {
+ width: 5px;
+ height: 5px;
+}
+::-webkit-scrollbar-button {
+ width: 0px;
+ height: 0px;
+}
+::-webkit-scrollbar-thumb {
+ background: #123;
+ border:2px solid #090909;
+}
+::-webkit-scrollbar-track {
+ background:#090909;
+}
+::-webkit-scrollbar-corner {
+ background: transparent;
+}
+#criteo_sticky {
+display:none;
+}
+
+/**Fonts**/
+@font-face { font-family: "Towerofgod"; src: url('https://dl.dropbox.com/s/gbk2x1f34algifa/htf1bkup.TTF'); format('truetype');}
+@font-face { font-family: "BlackMango"; src: url('https://dl.dropbox.com/s/gvzex097e8520uy/BlackMango-Black.ttf'); format('truetype');}
