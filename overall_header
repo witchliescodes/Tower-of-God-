@@ -3,12 +3,14 @@
 <html xmlns="http://www.w3.org/1999/xhtml" dir="{S_CONTENT_DIRECTION}" id="min-width" lang="{L_LANG_HTML}"
 	  xml:lang="{L_LANG_HTML}" {NAMESPACE_FB_LIKE} {NAMESPACE_FB} {NAMESPACE_BBCODE}>
 <head>
+  <script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
 <meta charset="UTF-8" />
 <script src="https://kit.fontawesome.com/e0e3e9da43.js" crossorigin="anonymous"></script>
 <link rel="stylesheet" href="https://dl.dropbox.com/s/53uanrt9l07mo2e/rpgawesome-webfont.ttf"/>
 <link rel="stylesheet" href="https://dl.dropbox.com/s/gbk2x1f34algifa/htf1bkup.TTF"/>
 <link rel="stylesheet" href="https://dl.dropbox.com/s/gvzex097e8520uy/BlackMango-Black.ttf"/>
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"/>
+<script src="https://kit.fontawesome.com/0687827dee.js" crossorigin="anonymous"></script>
 <script src="//pull.cappuccicons.com/cpf.js"></script>
 <script src="//glenthemes.github.io/iconsax/geticons.js"></script>
 <link href="//glenthemes.github.io/iconsax/style.css" rel="stylesheet" />
@@ -257,7 +259,7 @@ attribute:"title"
 	<!-- END google_analytics_code -->
 </head>
 
-<body id="phpbb">
+<body id="phpbb" class="dark-mode">
 <!-- BEGIN hitskin_preview -->
 <div id="hitskin_preview" style="display: block;">
 	<h1><img src="https://2img.net/i/fa/hitskin/hitskin_logo.png" alt=""/> <em>Hit</em>skin.com</h1>
@@ -338,16 +340,20 @@ attribute:"title"
 	</div>
 </div>
 <!-- END switch_like_popup -->
-<div id="torre">       
-<div class="widgtool">
-  <div id="tool-us"></div>
-  <div id="tool-notis"></div>
-  <div class="wigtrue"></div>
-  </div>
-</div>
 <div class="conteneur_minwidth_IE">
 	<div class="conteneur_layout_IE">
 		<div class="conteneur_container_IE">
+<div id="torre">       
+<div class="widgtool">
+  <div id="tool-us">
+    <div id="tool-notis">
+        <div class="daytowe"> <button id="theme-toggler" type="button" name="dark_light"  title="Cambia los colores del tema"></button></div>
+    </div>
+    <div class="avatowe"><script>document.write(_userdata.avatar);</script></div> 
+  </div>
+  <div class="wigtrue"></div>
+  </div>
+</div>                  
 			<div id="wrap">
                           <a href="/"><div class="cabecera">
                             <div class="logto"><h1>Tower of G</h1><div class="eyes"><img src="https://images2.imgbox.com/50/b6/PywoUgrd_o.png"/></div><h2>d</h2></div>                      
@@ -480,3 +486,42 @@ attribute:"title"
 
 										<div id="main">
 											<div id="main-content">
+                                                                                          
+ <style>
+ button#theme-toggler {          
+    position: fixed;
+    top: 118px;
+    left: 17px;
+    width: 30px;
+    height: 30px;
+    border: var(--tback1);
+    background: var(--tback1);
+}
+button#theme-toggler:before { font: 13px 'cappuccicons'; color: white;}
+
+.dark-mode button#theme-toggler:before {content: '\eb97';}
+.light-mode button#theme-toggler:before {content: '\eca7'; color:var(–acent1); }
+                                                                                          
+ body.light-mode {
+--back1: #fafafa;
+--back2: #f8f8f8;
+--back3: #f5f5f5;
+--acent1: #3c4f9d;
+--acent2: #6456aa; 
+--acent3: #6ba5a3;
+--acent4: #111213;  
+--text1: #0e0e0e;
+}
+   
+body.dark-mode {
+--back1: #21273d; 
+--back2: #454555;
+--back3: #3e2228;
+--acent1: #3c4f9d;
+--acent2: #6456aa; 
+--acent3: #6ba5a3;
+--acent4: #111213;    
+--tback1: #0e0e0e5e;
+--tback2: #4545558c;  
+--text1: #edeeff;}
+</style>
