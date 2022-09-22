@@ -88,3 +88,8 @@
 	<!-- END switch_delete_cookies -->
 </ul>
 <!-- END switch_on_index -->
+  
+<style>
+.catog1 { width: 1057px; height: 800px; background: red; overflow: hidden;}
+.catog1 .tabtog { position: absolute; margin: -5px 0 0 -5px; width: 600px; background: 600px; background: url('https://images2.imgbox.com/ed/61/7BNLnMBp_o.png'); background-size: cover; background-position: center;}  
+</style>  
