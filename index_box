@@ -90,6 +90,6 @@
 <!-- END switch_on_index -->
   
 <style>
-.catog1 { width: 1057px; height: 800px; background: red; overflow: hidden;}
-.catog1 .tabtog { position: absolute; margin: -5px 0 0 -5px; width: 600px; background: 600px; background: url('https://images2.imgbox.com/ed/61/7BNLnMBp_o.png'); background-size: cover; background-position: center;}  
+.catog1 { width: 1057px; height: 800px; background: red; overflow: hidden; margin: -125px 0 0 0;} 
+.catog1 .tabtog { height: 150px; margin: 2px 0 0 -5px; width: 1057px; position: absolute; background: #123;}  
 </style>  
