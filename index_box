@@ -97,8 +97,9 @@
 .catog1 .tabtog { height: 130px; margin: 2px 0 0 -5px; width: 1057px; position: absolute; background-image: url('https://images2.imgbox.com/31/9d/w84bb7Vh_o.png'); background-attachment: fixed!important; background-size: cover; background-position: center; display: flex; align-items: center; overflow: hidden;} 
 .catog1 .tabtog h1 { font-size: 30px; text-transform: uppercase; text-align: center; letter-spacing: 1px; margin: 0 0px 0 70px; font-family: 'BlackMango'; color: var(--text1);}
 .catog1 .tabtog h1:before { content: "01"; background: transparent; width: 130px; border: 1px solid var(--acent3); height: 130px; display: flex; color: var(--text1); justify-content: flex-end; margin: -52px 0 0 -165px; align-items: center; border-radius: 100%; position: absolute; font-family: Arial; font-size: 30px; padding: 10px; text-align: center;}   
-.catog1 .forotog:nth-child(1) { position: absolute; background: green; margin: 140px 0 0 -5px; padding: 10px; } 
+.catog1 .forotog:nth-child(1) { position: absolute; background: green; margin: 140px 0 0 -5px; padding: 10px; width: 280px; height: 400px;} 
 .catog1 .forotog:nth-child(2){ background: pink; position: absolute; margin: 570px 0 0 -5px; width: 280px; padding: 10px; height: 195px;}
+.catog1 .forotog:nth-child(3) { position: absolute; background: cadetblue; margin: 475px 0 0 303px; width: 280px; padding: 10px; height: 290px;}
 .catog1 .forotog:nth-child(7){ position: absolute; background: orange; width: 210px; height: 500px; margin: -200px 0 0 842px;}  
 
 
