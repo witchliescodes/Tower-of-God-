@@ -100,6 +100,7 @@
 .catog1 .forotog:nth-child(1) { position: absolute; background: green; margin: 140px 0 0 -5px; padding: 10px; width: 280px; height: 400px;} 
 .catog1 .forotog:nth-child(2){ background: pink; position: absolute; margin: 570px 0 0 -5px; width: 280px; padding: 10px; height: 195px;}
 .catog1 .forotog:nth-child(3) { position: absolute; background: cadetblue; margin: 475px 0 0 303px; width: 280px; padding: 10px; height: 290px;}
+.catog1 .forotog:nth-child(4){ position: absolute; background: darkslateblue; margin: 140px 0 0 303px; padding: 10px; width: 280px; height: 304px;}
 .catog1 .forotog:nth-child(7){ position: absolute; background: orange; width: 210px; height: 500px; margin: -200px 0 0 842px;}  
 
 
