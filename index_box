@@ -44,11 +44,11 @@
 </div>
 </div>
 <div class="avaydes">
+{catrow.forumrow.FORUM_DESC}
 <!-- BEGIN avatar -->
 <span class="lastpost-avatar">{catrow.forumrow.avatar.LAST_POST_AVATAR}</span>
 <!-- END avatar -->
 <div class="ultav"><dl class="icon" style="background:url({catrow.forumrow.FORUM_FOLDER_IMG});"></dl></div>  
-{catrow.forumrow.FORUM_DESC}
 </div>
 </div>                                                 
                                                   
@@ -88,12 +88,15 @@
 .catog1 .forotog:nth-child(1) .togti { width: auto; height: auto; background: var(--back3); padding: 10px; margin: 0 0 10px 0;}
 .catog1 .forotog:nth-child(1) .togti a {font: 13px var(--f-titulo); text-align: center; text-transform: uppercase; }  
 .catog1 .forotog:nth-child(1) .rogspan { height: 30px; width: auto; display: flex; align-items: center; justify-content: center; color: var(--text1); font-size: 9px; text-align: center; line-height: 12px; text-transform: uppercase; letter-spacing: 1px; }
-.catog1 .forotog:nth-child(1) .togtyp { width: auto; height: 30px; margin-bottom: 10px; display: flex; justify-content: space-evenly; font-size: 8px; text-transform: uppercase; color: var(--text1); font-family: var(--f-c); letter-spacing: 1px; }
-.catog1 .forotog:nth-child(1) .forimg  { width: 260px; height: 150px; position: absolute; margin: -52px 0 0 0px;}
-.catog1 .forotog:nth-child(2){ background: pink; position: absolute; margin: 570px 0 0 -5px; width: 260px; padding: 10px; height: 195px; overflow: hidden;}
+.catog1 .forotog:nth-child(1) .togtyp { width: auto; height: 30px; margin-bottom: 10px; display: flex; align-items: center; justify-content: space-evenly; font-size: 8px; text-transform: uppercase; color: var(--text1); font-family: var(--f-c); letter-spacing: 1px; }
+.catog1 .forotog:nth-child(1) .avaydes { width: 260px; overflow: hidden; height: 272px; display: flex; align-items: flex-start; flex-flow: column;}  
+.catog1 .forotog:nth-child(1) .togdes { width: 130px; text-align: justify; height: 110px; overflow: auto; margin: 0 0 10px 0px; font-size: 9px; padding: 0px 10px; line-height: 11px; color: var(--text1); text-transform: uppercase; }  
+.catog1 .forotog:nth-child(1) .lastpost-avatar { position: absolute; margin: 0px 0 0px 158px; width: 98px; background: red; height: 100px; }  
+.catog1 .forotog:nth-child(1) .forimg  { width: 260px; height: 150px;}
+.catog1 .forotog:nth-child(2) { background: pink; position: absolute; margin: 570px 0 0 -5px; width: 260px; padding: 10px; height: 195px; overflow: hidden;}
 .catog1 .forotog:nth-child(3) { position: absolute; background: cadetblue; margin: 475px 0 0 283px; width: 280px; padding: 10px; height: 290px; overflow: hidden;}
-.catog1 .forotog:nth-child(4){ position: absolute; background: darkslateblue; margin: 140px 0 0 283px; padding: 10px; width: 280px; height: 304px; overflow: hidden;}
+.catog1 .forotog:nth-child(4) { position: absolute; background: darkslateblue; margin: 140px 0 0 283px; padding: 10px; width: 280px; height: 304px; overflow: hidden;}
 .catog1 .forotog:nth-child(5) { position: absolute; background: yellowgreen; margin: 390px 0 0 592px; padding: 10px; width: 220px; height: 375px; overflow: hidden;}
 .catog1 .forotog:nth-child(6) { position: absolute; padding: 10px; background: violet; margin: 140px 0 0 592px; width: 220px; height: 217px; overflow: hidden;}
-.catog1 .forotog:nth-child(7){ position: absolute; background: orange; width: 210px; height: 645px; margin: 140px 0 0 842px; overflow: hidden;}  
+.catog1 .forotog:nth-child(7) { position: absolute; background: orange; width: 210px; height: 645px; margin: 140px 0 0 842px; overflow: hidden;}  
 </style>  
