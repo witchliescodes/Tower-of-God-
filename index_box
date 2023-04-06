@@ -30,14 +30,17 @@
 <div class="togsub">
 <div class="togti"><a href="{catrow.forumrow.U_VIEWFORUM}" class="forumtitle">{catrow.forumrow.FORUM_NAME}</a></div>
 <div class="togult">
-<span>
+<div class="rogspan">
+  <span>
 <!-- BEGIN switch_topic_title -->
 <a href="{catrow.forumrow.U_LATEST_TOPIC}" title="{catrow.forumrow.LATEST_TOPIC_TITLE}">{catrow.forumrow.LATEST_TOPIC_NAME}</a> 
 <!-- END switch_topic_title -->
 {catrow.forumrow.USER_LAST_POST}
 </span>
-<div class="togtyp">
+  </div>
+  <div class="togtyp">
 <div class="topics">{catrow.forumrow.TOPICS} <em>temas</em> </div>
+<div class="posts">{catrow.forumrow.POSTS} <em>posts</em>  
 </div>
 </div>
 <div class="avaydes">
@@ -82,6 +85,11 @@
 .catog1 .tabtog h1:before { content: "01"; background: transparent; width: 130px; border: 1px solid var(--acent3); height: 130px; display: flex; color: var(--text1); justify-content: flex-end; margin: -52px 0 0 -165px; align-items: center; border-radius: 100%; position: absolute; font-family: Arial; font-size: 30px; padding: 10px; text-align: center;}   
 .catog1 .forotog:nth-child(1) { position: absolute; background: var(--acent4); margin: 140px 0 0 -5px; padding: 10px; width: 260px; height: 400px; overflow: hidden;} 
 .catog1 .forotog:nth-child(1) .togsub { width: 260px; position: absolute; margin: -14px 0 0 -6px; height: 400px;}  
+.catog1 .forotog:nth-child(1) .togti { width: auto; height: auto; background: var(--back3); padding: 10px; margin: 0 0 10px 0;}
+.catog1 .forotog:nth-child(1) .togti a {font: 13px var(--f-titulo); text-align: center; text-transform: uppercase; }  
+.catog1 .forotog:nth-child(1) .rogspan { height: 30px; width: auto; display: flex; align-items: center; justify-content: center; color: var(--text1); font-size: 9px; text-align: center; line-height: 12px; text-transform: uppercase; letter-spacing: 1px; }
+.catog1 .forotog:nth-child(1) .togtyp { width: auto; height: 30px; margin-bottom: 10px; display: flex; justify-content: space-evenly; font-size: 8px; text-transform: uppercase; color: var(--text1); font-family: var(--f-c); letter-spacing: 1px; }
+.catog1 .forotog:nth-child(1) .forimg  { width: 260px; height: 150px; position: absolute; margin: -52px 0 0 0px;}
 .catog1 .forotog:nth-child(2){ background: pink; position: absolute; margin: 570px 0 0 -5px; width: 260px; padding: 10px; height: 195px; overflow: hidden;}
 .catog1 .forotog:nth-child(3) { position: absolute; background: cadetblue; margin: 475px 0 0 283px; width: 280px; padding: 10px; height: 290px; overflow: hidden;}
 .catog1 .forotog:nth-child(4){ position: absolute; background: darkslateblue; margin: 140px 0 0 283px; padding: 10px; width: 280px; height: 304px; overflow: hidden;}
